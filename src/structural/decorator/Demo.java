@@ -10,7 +10,6 @@ public class Demo {
                         new FileDataSource("out/OutputDemo.txt")));
         encoded.writeData(salaryRecords);
         DataSource plain = new FileDataSource("out/OutputDemo.txt");
-
         System.out.println("- Input ----------------");
         System.out.println(salaryRecords);
         System.out.println("- Encoded --------------");
