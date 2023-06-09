@@ -1,4 +1,9 @@
-package practicing.factory;
+package practicing.factory.factory;
+
+import practicing.factory.plans.CommercialPlan;
+import practicing.factory.plans.DomesticPlan;
+import practicing.factory.plans.InstitutionalPlan;
+import practicing.factory.plans.Plan;
 
 public class PlanFactory {
     public Plan createPlan(String planType) {

@@ -1,7 +1,7 @@
-package practicing.factory;
+package practicing.factory.plans;
 
 public class DomesticPlan extends Plan {
-    void getRate() {
+    public void getRate() {
         rate = 3.50;
     }
 }
